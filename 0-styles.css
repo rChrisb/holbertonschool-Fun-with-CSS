@@ -1,0 +1,37 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 30px;
+  position: relative;
+  background-color: rgb(247, 245, 245);
+  border: solid 2px rgb(167, 165, 165);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.icon {
+  width: 300px;
+  height: 400px;
+  background-image: url(./0-sprite.png);
+  background-position: center top;
+  background-size: 250% 100%;
+  position: inherit;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 90px;
+}
+
+.i-html {
+  background-position: 25px 0;
+}
+.i-css {
+  background-position: -225px 0;
+}
+.i-js {
+  background-position: -470px 0;
+}
